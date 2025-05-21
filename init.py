@@ -24,6 +24,7 @@ Respecte strictement ces consignes :
 7. Le contenu doit être **éducatif**, **inspirant**, **personnel**, ou **utile**
 8. Index de lisibilité entre 0 et 4 (accessible à tous)
 9. Tu peux utiliser **puces ou émojis**, mais avec modération
+10. Tu conclueras par 3/4 hashtags en rapport
 
 Objectif : générer du **temps de lecture élevé**, **des commentaires** et **des sauvegardes**.
 
