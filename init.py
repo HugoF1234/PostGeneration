@@ -1,8 +1,7 @@
 from flask import Flask, request, render_template_string
 import google.generativeai as genai
-import os
-import requests
 
+# Clé API Gemini
 genai.configure(api_key="AIzaSyB434P__wR_o_rr5Q3PjOULqyKhMANRtgk")
 
 app = Flask(__name__)
@@ -34,8 +33,7 @@ Rédige un post complet, sans aucun titre, ni signature, ni lien. Commence direc
 # 🖥 Interface HTML
 TEMPLATE = '''
 <!doctype html>
-<title>Générateur de Post LinkedIn Parfait</title>
-<h1>✨ Générateur de Post LinkedIn optimisé (2025)</h1>
+<h1>Générateur de Post LinkedIn optimisé (2025)</h1>
 <form method=post>
   Sujet du post :<br><input type=text name=subject size=80 required><br><br>
   Ton :<br>
@@ -75,4 +73,3 @@ def index():
 
 if __name__ == "__main__":
     app.run(debug=True)
-
