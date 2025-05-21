@@ -45,7 +45,7 @@ TEMPLATE = '''
 <body>
 <h1>✨ Générateur de Post LinkedIn optimisé (2025)</h1>
 <form method=post>
-  Sujet du post :<br>
+  De quoi voudriez-vous parler ? :<br>
   <input type=text name=subject size=80 required value="{{ subject or '' }}"><br><br>
 
   Ton :<br>
