@@ -1,11 +1,9 @@
 from flask import Flask, request, render_template_string
-import openai
 import google.generativeai as genai
 import os
 import requests
 
 genai.configure(api_key="AIzaSyB434P__wR_o_rr5Q3PjOULqyKhMANRtgk")
-openai.api_key = "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"
 
 app = Flask(__name__)
 STATIC_FOLDER = "static"
