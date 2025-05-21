@@ -37,10 +37,10 @@ TEMPLATE = '''
 <html>
 <head>
   <title>Post LinkedIn Optimisé</title>
-  <style>
-    textarea {{ width: 100%; height: 300px; font-size: 16px; line-height: 1.5; }}
-    input[type="submit"] {{ font-size: 18px; padding: 6px 12px; }}
-  </style>
+    <style>
+      textarea { width: 100%; height: 300px; font-size: 16px; line-height: 1.5; }
+      input[type="submit"] { font-size: 18px; padding: 6px 12px; }
+    </style>
 </head>
 <body>
 <h1>✨ Générateur de Post LinkedIn optimisé (2025)</h1>
