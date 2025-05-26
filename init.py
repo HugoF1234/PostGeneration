@@ -21,7 +21,7 @@ Respecte strictement ces consignes :
 4. Ton : {tone}, authentique, humain. 
    - Pour le ton professionnel, utilise un vocabulaire technique et adapté au domaine.
    - Pour le ton inspirant, vise à motiver et à inspirer ton audience.
-   - Pour le ton personnel, base-toi sur les centres d’intérêt suivants : {interets}, et sur le secteur suivant : {secteur}
+   - Pour le ton personnel, base-toi sur les centres d’intérêt suivants : {interets}, et sur le secteur suivant : {secteur}. Tu te servira des interets et du secteur uniquement dans le ton personnel.
    - Pour le ton conversationnel, adopte un langage courant, accessible et amical.
 5. **Aucune mention de lien externe**
 6. Termine par une **question engageante** simple qui pousse à commenter
@@ -81,7 +81,7 @@ TEMPLATE = '''
 <h2>💬 Post généré :</h2>
 <form method="post">
   <textarea name="edited_post">{{ post }}</textarea><br><br>
-  <input type="submit" value="Modifier manuellement uniquement">
+  <input type="submit" value="Modifier">
 </form>
 {% endif %}
 </body>
