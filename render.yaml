@@ -24,4 +24,4 @@ services:
       - key: LINKEDIN_REDIRECT_URI
         value: https://linkedinboost.onrender.com/callback
       - key: GEMINI_API_KEY
-        value: AIzaSyB434P__wR_o_rr5Q3PjOULqyKhMANRtgk
+        value: AIzaSyD76qCZzbr9P74etHmr8qWb1qoe7eapDbc
