@@ -110,7 +110,7 @@ def index():
             secteur = request.form.get("secteur", "tech")
             try:
                 prompt = generate_performance_prompt(subject, tone, interets, secteur)
-                model = genai.GenerativeModel("gemini-1.5-pro")
+                model = genai.GenerativeModel("gemini-2.0-flash")
                 response = model.generate_content(prompt)
                 post = response.text.strip()
             except Exception as e:
